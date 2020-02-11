@@ -18,6 +18,9 @@ h1 {
   border-bottom: 100px solid transparent;
   border-left: 200px solid #333;
 }
-.grid-layout .shift {
+.shift, .shift-color {
   transform: translateY(50%);
+}
+.grid-layout .color, .grid-layout .shift-color {
+  border-left-color: #DDE0D7;
 }
