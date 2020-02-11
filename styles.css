@@ -2,17 +2,19 @@ body {
   background-color: #F12000;
 }
 h1 {
+  font-size: 4em;
   font-family: 'Montserrat', sans-serif;
   color: #333;
+  padding: 50px 0 20px 10px;
 }
 .grid-layout {
   display: grid;
-  grid-template: repeat(2, 100px) / repeat(3, 100px);
+  grid-template: repeat(2, 200px) / repeat(3, 200px);
 }
 .grid-layout div {
   width: 0;
   height: 0;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  border-left: 100px solid #333;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 200px solid #333;
 }
